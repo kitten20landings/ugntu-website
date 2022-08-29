@@ -1,0 +1,41 @@
+// #people
+#people {
+    margin-bottom: 5%;
+
+    .container {
+        padding: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+        display: flex;
+        justify-content: space-between;
+    }
+}
+// #people end
+
+// #companies
+#companies {
+    margin-bottom: 5%;
+
+    .container__row{
+        &:first-child{
+            padding: 2.5% 0;
+        }
+        &:last-child{
+            padding: 15% 0;
+        }
+    }
+}
+
+// #comapines end
+
+// main
+.only-991px {
+    display: none;
+}
+
+.info__contacts {
+    font-size: 13px;
+}
+
+// main end

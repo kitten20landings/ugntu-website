@@ -1,0 +1,28 @@
+#people {
+  margin-bottom: 5%;
+}
+#people .container {
+  padding: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#companies {
+  margin-bottom: 5%;
+}
+#companies .container__row:first-child {
+  padding: 2.5% 0;
+}
+#companies .container__row:last-child {
+  padding: 15% 0;
+}
+
+.only-991px {
+  display: none;
+}
+
+.info__contacts {
+  font-size: 13px;
+}
